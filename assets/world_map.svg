@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250" width="500" height="250" fill="none">
+  <!-- Dotted World Map Simplified Representation -->
+  <g fill="#334155" opacity="0.35">
+    <!-- North America -->
+    <circle cx="80" cy="60" r="2.5"/><circle cx="95" cy="55" r="2.5"/><circle cx="110" cy="50" r="2.5"/><circle cx="125" cy="52" r="2.5"/><circle cx="140" cy="58" r="2.5"/>
+    <circle cx="70" cy="75" r="2.5"/><circle cx="85" cy="70" r="2.5"/><circle cx="100" cy="65" r="2.5"/><circle cx="115" cy="68" r="2.5"/><circle cx="130" cy="72" r="2.5"/><circle cx="145" cy="76" r="2.5"/>
+    <circle cx="75" cy="90" r="2.5"/><circle cx="90" cy="85" r="2.5"/><circle cx="105" cy="80" r="2.5"/><circle cx="120" cy="82" r="2.5"/><circle cx="135" cy="88" r="2.5"/>
+    <circle cx="90" cy="105" r="2.5"/><circle cx="105" cy="100" r="2.5"/><circle cx="120" cy="98" r="2.5"/>
+    <circle cx="100" cy="120" r="2.5"/><circle cx="115" cy="115" r="2.5"/>
+
+    <!-- South America -->
+    <circle cx="140" cy="140" r="2.5"/><circle cx="155" cy="145" r="2.5"/><circle cx="145" cy="155" r="2.5"/><circle cx="160" cy="160" r="2.5"/>
+    <circle cx="150" cy="175" r="2.5"/><circle cx="165" cy="180" r="2.5"/><circle cx="155" cy="195" r="2.5"/><circle cx="160" cy="210" r="2.5"/>
+
+    <!-- Europe -->
+    <circle cx="230" cy="55" r="2.5"/><circle cx="245" cy="50" r="2.5"/><circle cx="260" cy="52" r="2.5"/><circle cx="275" cy="58" r="2.5"/>
+    <circle cx="225" cy="70" r="2.5"/><circle cx="240" cy="68" r="2.5"/><circle cx="255" cy="66" r="2.5"/><circle cx="270" cy="70" r="2.5"/>
+    <circle cx="235" cy="85" r="2.5"/><circle cx="250" cy="82" r="2.5"/><circle cx="265" cy="80" r="2.5"/>
+
+    <!-- Africa -->
+    <circle cx="240" cy="105" r="2.5"/><circle cx="255" cy="100" r="2.5"/><circle cx="270" cy="105" r="2.5"/>
+    <circle cx="235" cy="120" r="2.5"/><circle cx="250" cy="122" r="2.5"/><circle cx="265" cy="125" r="2.5"/><circle cx="280" cy="128" r="2.5"/>
+    <circle cx="245" cy="140" r="2.5"/><circle cx="260" cy="145" r="2.5"/><circle cx="275" cy="148" r="2.5"/>
+    <circle cx="255" cy="165" r="2.5"/><circle cx="270" cy="168" r="2.5"/><circle cx="260" cy="185" r="2.5"/>
+
+    <!-- Asia -->
+    <circle cx="310" cy="50" r="2.5"/><circle cx="330" cy="48" r="2.5"/><circle cx="350" cy="52" r="2.5"/><circle cx="370" cy="56" r="2.5"/><circle cx="390" cy="60" r="2.5"/><circle cx="410" cy="62" r="2.5"/>
+    <circle cx="300" cy="65" r="2.5"/><circle cx="320" cy="64" r="2.5"/><circle cx="340" cy="66" r="2.5"/><circle cx="360" cy="68" r="2.5"/><circle cx="380" cy="72" r="2.5"/><circle cx="400" cy="76" r="2.5"/><circle cx="420" cy="78" r="2.5"/>
+    <circle cx="310" cy="82" r="2.5"/><circle cx="330" cy="80" r="2.5"/><circle cx="350" cy="82" r="2.5"/><circle cx="370" cy="85" r="2.5"/><circle cx="390" cy="88" r="2.5"/>
+    <circle cx="325" cy="100" r="2.5"/><circle cx="345" cy="98" r="2.5"/><circle cx="365" cy="102" r="2.5"/><circle cx="385" cy="106" r="2.5"/>
+    <circle cx="340" cy="118" r="2.5"/><circle cx="360" cy="120" r="2.5"/>
+
+    <!-- Australia -->
+    <circle cx="410" cy="160" r="2.5"/><circle cx="425" cy="158" r="2.5"/><circle cx="440" cy="162" r="2.5"/>
+    <circle cx="405" cy="175" r="2.5"/><circle cx="420" cy="178" r="2.5"/><circle cx="435" cy="180" r="2.5"/>
+    <circle cx="415" cy="195" r="2.5"/><circle cx="430" cy="198" r="2.5"/>
+  </g>
+
+  <!-- Glowing Location Pin (San Francisco) -->
+  <circle cx="85" cy="80" r="12" fill="#f97316" fill-opacity="0.2">
+    <animate attributeName="r" values="8;16;8" dur="2.5s" repeatCount="indefinite" />
+    <animate attributeName="fill-opacity" values="0.3;0.05;0.3" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="85" cy="80" r="5" fill="#f97316" />
+  <circle cx="85" cy="80" r="2" fill="#ffffff" />
+</svg>
